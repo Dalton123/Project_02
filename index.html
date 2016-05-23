@@ -3,97 +3,115 @@
 	<head>
 		<title>Dalton Walsh</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href='https://fonts.googleapis.com/css?family=Raleway:800,600|Roboto:700,700italic,400,400italic,100italic,100' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script type='text/javascript' src='js/script.js'></script>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:800,600|Roboto:300,700,700italic,400,400italic,100italic,100' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<div class="wrapper">
-			<nav>
-				<h1>Lorem ipsum</h1>
-				<!-- <ul class="main-nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul> -->
+			<nav id="home">
+				<h1 class="title">Lorem ipsum</h1>
 				<ul class="main-nav">
-				  <li><a href="#">Home</a></li>
-				  <li><a href="#">About</a></li>
-				  <li><a href="#">Products</a></li>
-				  <li><a href="#">Contact</a></li>
+				  <li><a href="#home">Home</a></li>
+				  <li><a href="#portfolio">Portfolio</a></li>
+				  <li><a href="#skills">Skills</a></li>
+				  <li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 
 			<header class="main-header">
-				<img class="logo" src="images/responsive-layout-profile.png" alt="Dalton Walsh Profile Image">
+				<img class="profile-image" src="images/responsive-layout-profile.png" alt="Dalton Walsh Profile Image">
 				<p class="general-text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eligendi quidem animi unde veniam adipisci recusandae, consequatur rerum aspernatur, pariatur, quos dicta molestias alias totam porro fugit aliquam. Harum, nobis!
 				</p>
 			</header>
 
 			<main>
-				<h2 class="section-header">Portfolio</h2>
-
-				<div class="portfolio-item">
-					<img class="portfolio-img" src="images/portfolio-1.png" alt="portfolio-1">
-					<h3 class="portfolio-head">
-						Marketing Page
-					</h3>
-					<p class="portfolio-copy">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				<section id="portfolio">
+					<h2 class="section-header">Portfolio</h2>
+					
+					<div class="portfolio-item">
+						<img class="portfolio-img" src="images/portfolio-1.png" alt="portfolio-1">
+						<h3 class="portfolio-head">
+							Marketing Page
+						</h3>
+						<p class="portfolio-copy">
+							This project shows the front page of a marketing website meant for a specific businss I'm interested in.
+						</p>
+					</div>
+					<div class="portfolio-item">
+						<img class="portfolio-img" src="images/portfolio-2.png" alt="portfolio-1">
+						<h3 class="portfolio-head">
+							Search Page
+						</h3>
+						<p class="portfolio-copy">
+							This project searches through a specific database to find information that the user is trying to look up.
+						</p>
+					</div>
+					<div class="portfolio-item">
+						<img class="portfolio-img" src="images/portfolio-3.png" alt="portfolio-1">
+						<h3 class="portfolio-head">
+							Travel App
+						</h3>
+						<p class="portfolio-copy">
+							This project compares travel times based on different transportation methods and tells you the best one.
+						</p>
+					</div>
+					<div class="portfolio-item">
+						<img class="portfolio-img" src="images/portfolio-6.png" alt="portfolio-1">
+						<h3 class="portfolio-head">
+							Map of Favorite Spots
+						</h3>
+						<p class="portfolio-copy">
+							This project uses mapping API's to plot points for my favorite spots in the city for a do-it-yourself walking tour.
+						</p>
+					</div>
+					<div class="portfolio-item">
+						<img class="portfolio-img" src="images/portfolio-5.png" alt="portfolio-1">
+						<h3 class="portfolio-head">
+							Photo Gallery
+						</h3>
+						<p class="portfolio-copy">
+							This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.
+						</p>
+					</div>
+					<div class="portfolio-item">
+						<img class="portfolio-img" src="images/portfolio-4.png" alt="portfolio-1">
+						<h3 class="portfolio-head">
+							Calculator
+						</h3>
+						<p class="portfolio-copy">
+							Someone can enter in the numbers they want, and press the big blue button and get the result.
+						</p>
+					</div>
+				</section>
+				<section id="skills">
+					<h2 class="section-header">Skills</h2>
+					<p class="general-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic odit ut nobis qui sapiente dolorem totam minima labore earum nam mollitia obcaecati atque voluptatem nihil laudantium, a enim reiciendis, consectetur.
 					</p>
-				</div>
-				<div class="portfolio-item">
-					<img class="portfolio-img" src="images/portfolio-2.png" alt="portfolio-1">
-					<h3 class="portfolio-head">
-						Search Page
-					</h3>
-					<p class="portfolio-copy">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					</p>
-				</div>
-				<div class="portfolio-item">
-					<img class="portfolio-img" src="images/portfolio-3.png" alt="portfolio-1">
-					<h3 class="portfolio-head">
-						Travel App
-					</h3>
-					<p class="portfolio-copy">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					</p>
-				</div>
-				<div class="portfolio-item">
-					<img class="portfolio-img" src="images/portfolio-6.png" alt="portfolio-1">
-					<h3 class="portfolio-head">
-						Map of Favorite Spots
-					</h3>
-					<p class="portfolio-copy">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					</p>
-				</div>
-				<div class="portfolio-item">
-					<img class="portfolio-img" src="images/portfolio-5.png" alt="portfolio-1">
-					<h3 class="portfolio-head">
-						Photo Gallery
-					</h3>
-					<p class="portfolio-copy">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					</p>
-				</div>
-				<div class="portfolio-item">
-					<img class="portfolio-img" src="images/portfolio-4.png" alt="portfolio-1">
-					<h3 class="portfolio-head">
-						Calculator
-					</h3>
-					<p class="portfolio-copy">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					</p>
-				</div>
+					<div class="skill">
+						<p>HTML</p>
+					</div>
+					<div class="skill">
+						<p>CSS</p>
+					</div>
+					<div class="skill">
+						<p>Photoshop</p>
+					</div>
+					<div class="skill">
+						<p>Illustrator</p>
+					</div>
+				</section>
 			</main>
 
-			<footer>
+			<footer id="contact">
 				<h2 class="section-header">Contact</h2>
 				<p class="general-text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eligendi quidem animi unde veniam adipisci recusandae, consequatur rerum aspernatur, pariatur, quos dicta molestias alias totam porro fugit aliquam. Harum, nobis!
+					If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
 				</p>
 				<p>Phone&nbsp;&nbsp;&nbsp;<a href="#">+1 (111) 555-1234</a></p>
 				<p>Email&nbsp;&nbsp;&nbsp;<a href="#">daltonwalsh123456@gmail.com</a></p>
@@ -101,10 +119,11 @@
 				<div class="bottom-nav">
 					<h3>Dalton Walsh</h3>
 					<ul>
-						<li><a href="#" class="reveal-mobile">Back to top</a></li>
-						<li><a href="#" class="reveal-desktop">Home</a></li>
-						<li><a href="#" class="reveal-desktop">Portfolio</a></li>
-						<li><a href="#" class="reveal-desktop">Contact</a></li>
+						<li><a href="#home" class="reveal-mobile">Back to top</a></li>
+						<li><a href="#home" class="reveal-desktop">Home</a></li>
+						<li><a href="#portfolio" class="reveal-desktop">Portfolio</a></li>
+						<li><a href="#skills" class="reveal-desktop">Skills</a></li>
+						<li><a href="#contact" class="reveal-desktop">Contact</a></li>
 					</ul>
 				</div>
 			</footer>
