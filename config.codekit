@@ -20,6 +20,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/cropped_profile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12132,
+		"inputAbbreviatedPath": "\/images\/cropped_profile.jpg",
+		"outputAbbreviatedPath": "\/images\/cropped_profile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/portfolio-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
